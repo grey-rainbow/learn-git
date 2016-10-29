@@ -13,4 +13,4 @@ cat id_rsa/*private key*/
 cd d:
 cd git
 git remote add origin https://github.com/grey-rainbow/learn-git.git
-git push -u origin master
+git push -u origin master/*push the files to the github*/
