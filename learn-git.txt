@@ -1,0 +1,16 @@
+cd ~
+mkdir .ssh
+cd .ssh
+$ ssh-keygen -t rsa -b 4096 -C "hzeng1998@gmail.com"
+enter
+enter
+enter
+enter
+ls
+cat id_rsa.pub /*pub key*/
+cat id_rsa/*private key*/
+/*copy & paste the pub key to the github and get your ssh-key's address*/
+cd d:
+cd git
+git remote add origin https://github.com/grey-rainbow/learn-git.git
+git push -u origin master
